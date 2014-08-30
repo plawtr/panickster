@@ -3,30 +3,25 @@ angular.module('starter.controllers', [])
 .controller('HeatMapCtrl', function($scope) {
 })
 
-.controller('ReportCtrl', function($scope, Report, $ionicPopup) {
+.controller('ReportCtrl', function($scope, Report, $ionicPopup, $state) {
 	$scope.data = {};
-
+console.log(Report)
 	$scope.reportIncident = function(data){
 
-		console.lg('reporting', data);
 
- 	}
-// var alertPopup = $ionicPopup.alert({
-//      title: 'Incident reported successfully!',
-//      template: 'It might taste good'
-//    });
-//    alertPopup.then(function(res) {
-//      console.log('Thank you for not eating my delicious ice cream cone');
-//    });
-		// here you add loc to data
-		//Report.incident(data).then(function(res){
-			//here comes the success
-		//}, function(error){
-			//here comes the error
-		//})
+		Report.incident(data).then(function(res){
+			var alertPopup = $ionicPopup.alert({
+		     	title: 'Incident reported successfully!'
+		   	});
+
+		    alertPopup.then(function(res) {
+		    	$state.go('tab.heatmap');
+		   	});
+		});
+
+		
+    }
 })
-
-
 
 .controller('InfoCtrl', function($scope) {
 })
