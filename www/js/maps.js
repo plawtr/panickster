@@ -291,3 +291,71 @@ mapStyle = [
 
 
 
+// onGPSSuccess = function(position) {
+//   var incidentLocation, directionsDisplay, directionsService, map, myOptions, request, userLocation;
+//   userLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+//   incidentLocation = new google.maps.LatLng(window.incidentLat, window.incidentLng);
+//   directionsDisplay = new google.maps.DirectionsRenderer();
+//   myOptions = {
+//     zoom: 16,
+//     center: userLocation,
+//     mapTypeId: google.maps.MapTypeId.ROADMAP,
+//     styles: mapStyle,
+//     disableDefaultUI: true
+//   };
+//   directionsService = new google.maps.DirectionsService();
+//   map = new google.maps.Map(document.getElementById("map"), myOptions);
+//   directionsDisplay.setMap(map);
+//   request = {
+//     origin: userLocation,
+//     destination: incidentLocation,
+//     travelMode: google.maps.TravelMode.WALKING
+//   };
+//   return directionsService.route(request, function(response, status) {
+//     if (status === google.maps.DirectionsStatus.OK) {
+//       return directionsDisplay.setDirections(response);
+//     }
+//   });
+// };
+
+getMapWithGPS = function() {
+  return navigator.geolocation.getCurrentPosition(onGPSSuccess, onGPSError);
+};
+
+
+onGPSSuccess = function(position) {
+  // var incidentLocation, map, marker, myOptions;
+  // incidentLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+  // myOptions = {
+  //   zoom: 16,
+  //   center: incidentLocation,
+  //   mapTypeId: google.maps.MapTypeId.ROADMAP,
+  //   styles: mapStyle,
+  //   disableDefaultUI: true
+  // };
+  // map = new google.maps.Map(document.getElementById("map"), myOptions);
+  // marker = new google.maps.Marker({
+  //   position: incidentLocation,
+  //   draggable: true,
+  //   map: map
+  // });
+  // return google.maps.event.addListener(marker, 'dragend', function(evt) {
+  //   document.getElementById('incident-lat').value = evt.latLng.lat();
+  //   return document.getElementById('incident-lng').value = evt.latLng.lng();
+  // });
+
+  alert('Latitude: '          + position.coords.latitude          + '\n' +
+          'Longitude: '         + position.coords.longitude         + '\n' +
+          'Altitude: '          + position.coords.altitude          + '\n' +
+          'Accuracy: '          + position.coords.accuracy          + '\n' +
+          'Altitude Accuracy: ' + position.coords.altitudeAccuracy  + '\n' +
+          'Heading: '           + position.coords.heading           + '\n' +
+          'Speed: '             + position.coords.speed             + '\n' +
+          'Timestamp: '         + position.timestamp                + '\n');
+};
+
+onGPSError = function(error) {
+  return alert('code: ' + error.code + '\n' + 'message: ' + error.message + '\n');
+};
+
+
