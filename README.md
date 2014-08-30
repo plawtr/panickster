@@ -1,4 +1,4 @@
-Ionic App Base
+PANICKSTER
 =====================
 
 A starting project for Ionic that optionally supports
