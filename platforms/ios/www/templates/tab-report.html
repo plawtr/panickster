@@ -4,9 +4,9 @@
   		<textarea name="message" rows="15" placeholder="Describe the incident here..." ng-model="data.message"></textarea>  		
 	</label>
 	<button type="submit" class="button button-block button-positive" ng-click="reportIncident(data)">REPORT NOW</button>
-
 	<br><br>
-	<i class="ion-location"></i>&nbsp; Your current location: </h3>
-	{{msg}}
+	<input type="hidden" name="lat" id="report-lat" ng-model="data.lat"/>
+	<input type="hidden" name="lng" id="report-lng" ng-model="data.lng"/>
+	<i class="ion-location"></i>&nbsp; Note: We'll send your current position alongwith the report. </h3>
   </ion-content>  
 </ion-view>
