@@ -1,10 +1,10 @@
 /* Empty. Add your own CSS if you like */
 #panic .section {
-    padding-top: 20px;
-    padding-bottom: 50px;
+    padding-top: 5px;
+    padding-bottom: 20px;
 }
 
-#panic h3{
+#panic h5{
     text-align: center;
 }
 

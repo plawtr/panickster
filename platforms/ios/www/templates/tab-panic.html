@@ -1,5 +1,34 @@
 <ion-view title="Panic">
-  <ion-content class="has-header padding">
-    <h1>Panic</h1>
-  </ion-content>
+    <ion-content class="has-header padding">
+        <div id="panic">
+            <div class="emergency section">
+                <h5> If you are in an emergency</h5>
+
+                <a ng-href="tel: 999">
+                    <button class="button button-block button-assertive">
+                        call 999
+                    </button>
+                </a>
+
+            </div>
+
+            <div class="emergency section">
+                <h5> Non emergency local police</h5>
+                <a ng-href="tel: 101">
+                    <button class="button button-block button-positive">
+                        call 101
+                    </button>
+                </a>
+            </div>
+
+            <div class="emergency section">
+                <h5> If you need Advice, Support or Information</h5>
+                <a ng-href="tel: 08453303030">
+                    <button class="button button-block button-calm">
+                        call LGF
+                    </button>
+                </a>
+            </div>
+        </div>
+    </ion-content>
 </ion-view>
