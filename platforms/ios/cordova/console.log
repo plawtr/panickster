@@ -1,0 +1,26 @@
+2014-08-30 18:56:59.037 panickster[15492:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-30 18:56:59.049 panickster[15492:70b] Unlimited access to network resources
+2014-08-30 18:56:59.073 panickster[15492:70b] [CDVTimer][keyboard] 0.095010ms
+2014-08-30 18:56:59.074 panickster[15492:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-08-30 18:56:59.074 panickster[15492:70b] [CDVTimer][statusbar] 0.795007ms
+2014-08-30 18:56:59.075 panickster[15492:70b] [CDVTimer][TotalPluginStartup] 2.254009ms
+2014-08-30 18:56:59.234 panickster[15492:70b] Resetting plugins due to page load.
+2014-08-30 18:56:59.499 panickster[15492:70b] Finished load of: file:///Users/saurabh/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/4BF0C5EA-A05A-48D8-8350-56C0309483A3/panickster.app/www/index.html#/tab/dash
+2014-08-30 19:04:54.237 panickster[16110:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-30 19:04:54.251 panickster[16110:70b] Unlimited access to network resources
+2014-08-30 19:04:54.282 panickster[16110:70b] [CDVTimer][keyboard] 0.100017ms
+2014-08-30 19:04:54.284 panickster[16110:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-08-30 19:04:54.285 panickster[16110:70b] [CDVTimer][statusbar] 0.783026ms
+2014-08-30 19:04:54.285 panickster[16110:70b] [CDVTimer][TotalPluginStartup] 3.412008ms
+2014-08-30 19:04:54.430 panickster[16110:70b] Resetting plugins due to page load.
+2014-08-30 19:04:54.779 panickster[16110:70b] Finished load of: file:///Users/saurabh/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/4BF0C5EA-A05A-48D8-8350-56C0309483A3/panickster.app/www/index.html#/tab/heatmap
+Terminating in response to SpringBoard's termination.
+2014-08-30 19:10:37.144 panickster[16503:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-30 19:10:37.156 panickster[16503:70b] Unlimited access to network resources
+2014-08-30 19:10:37.181 panickster[16503:70b] [CDVTimer][keyboard] 0.102997ms
+2014-08-30 19:10:37.182 panickster[16503:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-08-30 19:10:37.182 panickster[16503:70b] [CDVTimer][statusbar] 0.573993ms
+2014-08-30 19:10:37.183 panickster[16503:70b] [CDVTimer][TotalPluginStartup] 1.824975ms
+2014-08-30 19:10:37.317 panickster[16503:70b] Resetting plugins due to page load.
+2014-08-30 19:10:37.600 panickster[16503:70b] Finished load of: file:///Users/saurabh/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/4BF0C5EA-A05A-48D8-8350-56C0309483A3/panickster.app/www/index.html#/tab/heatmap
+Terminating in response to SpringBoard's termination.

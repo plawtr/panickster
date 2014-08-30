@@ -3,7 +3,9 @@
 // angular.module is a global place for creating, registering and retrieving Angular modules
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
-angular.module('starter', ['ionic'])
+// 'starter.services' is found in services.js
+// 'starter.controllers' is found in controllers.js
+angular.module('panickster', ['ionic', 'starter.controllers', 'starter.services'])
 
     .run(function($ionicPlatform) {
         $ionicPlatform.ready(function() {
@@ -36,47 +38,47 @@ angular.module('starter', ['ionic'])
 
             // Each tab has its own nav history stack:
 
-            .state('tab.dash', {
-                url: '/dash',
+            .state('tab.heatmap', {
+                url: '/heatmap',
                 views: {
-                    'tab-dash': {
-                        templateUrl: 'templates/tab-dash.html',
-                        controller: 'DashCtrl'
+                    'tab-heat-map': {
+                        templateUrl: 'templates/tab-heat-map.html',
+                        controller: 'HeatMapCtrl'
                     }
                 }
             })
 
-            .state('tab.friends', {
-                url: '/friends',
+            .state('tab.report', {
+                url: '/report',
                 views: {
-                    'tab-friends': {
-                        templateUrl: 'templates/tab-friends.html',
-                        controller: 'FriendsCtrl'
+                    'tab-report': {
+                        templateUrl: 'templates/tab-report.html',
+                        controller: 'ReportCtrl'
                     }
                 }
             })
-            .state('tab.friend-detail', {
-                url: '/friend/:friendId',
+            .state('tab.info', {
+                url: '/info',
                 views: {
-                    'tab-friends': {
-                        templateUrl: 'templates/friend-detail.html',
-                        controller: 'FriendDetailCtrl'
+                    'tab-info': {
+                        templateUrl: 'templates/tab-info.html',
+                        controller: 'InfoCtrl'
                     }
                 }
             })
 
-            .state('tab.account', {
-                url: '/account',
+            .state('tab.panic', {
+                url: '/panic',
                 views: {
-                    'tab-account': {
-                        templateUrl: 'templates/tab-account.html',
-                        controller: 'AccountCtrl'
+                    'tab-panic': {
+                        templateUrl: 'templates/tab-panic.html',
+                        controller: 'PanicCtrl'
                     }
                 }
             });
 
         // if none of the above states are matched, use this as the fallback
-        $urlRouterProvider.otherwise('/tab/dash');
+        $urlRouterProvider.otherwise('/tab/heatmap');
 
     });
 
