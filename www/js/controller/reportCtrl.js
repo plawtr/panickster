@@ -13,14 +13,22 @@ angular.module('starter.controllers')
             data.lng = position.coords.longitude;
             
             Report.incident(data).then(function (res) {
-                var alertPopup = $ionicPopup.alert({
-                    title: 'Incident reported successfully!'
-                });
+                    var alertPopup = $ionicPopup.alert({
+                        title: 'Incident reported successfully!'
+                    });
 
-                alertPopup.then(function (res) {
-                    $state.go('tab.heatmap');
-                });
-            });
+                    alertPopup.then(function (res) {
+                        $state.go('tab.heatmap');
+                    });
+                },
+            function (error) {
+                    var alertPopup = $ionicPopup.alert({
+                        title: 'Something went wrong! Please try again'
+                    });
+
+                    alertPopup.then(function (error) { });
+                }
+            );
         }
     });
 
