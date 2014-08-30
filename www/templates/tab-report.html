@@ -1,5 +1,12 @@
-<ion-view title="Report">
-  <ion-content class="has-header padding">
-    <h1>Report Incident</h1>
-  </ion-content>
+<ion-view title="Report Incident">
+  <ion-content class="padding">
+    <label class="item item-input">
+  		<textarea name="message" rows="15" placeholder="Describe the incident here..." ng-model="data.message"></textarea>  		
+	</label>
+	<button type="submit" class="button button-block button-positive" ng-click="reportIncident(data)">REPORT NOW</button>
+
+	<br><br>
+	<i class="ion-location"></i>&nbsp; Your current location: </h3>
+	{{msg}}
+  </ion-content>  
 </ion-view>

@@ -3,6 +3,7 @@ angular.module('starter.services', [])
 /**
  * A simple example service that returns some data.
  */
+<<<<<<< HEAD
 .factory('Friends', function() {
   // Might use a resource here that returns a JSON array
 
@@ -24,3 +25,16 @@ angular.module('starter.services', [])
     }
   }
 });
+=======
+.factory('Report', function($http) {
+
+
+  return {
+    incident: function(reportData){
+      $http.post('http://localhost:3000/incident/report')
+    }
+  }
+});
+
+
+>>>>>>> master
