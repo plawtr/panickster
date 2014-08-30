@@ -1,0 +1,9 @@
+2014-08-30 18:50:29.464 panickster[27678:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-30 18:50:29.579 panickster[27678:70b] Unlimited access to network resources
+2014-08-30 18:50:30.284 panickster[27678:70b] [CDVTimer][keyboard] 13.355970ms
+2014-08-30 18:50:30.284 panickster[27678:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-08-30 18:50:30.284 panickster[27678:70b] [CDVTimer][statusbar] 0.410020ms
+2014-08-30 18:50:30.285 panickster[27678:70b] [CDVTimer][TotalPluginStartup] 14.540970ms
+2014-08-30 18:50:31.582 panickster[27678:70b] Resetting plugins due to page load.
+2014-08-30 18:50:33.262 panickster[27678:70b] Finished load of: file:///Users/shalhose/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8ECFFE45-6809-41A0-899D-A99C41E93DDD/panickster.app/www/index.html#/tab/dash
+2014-08-30 18:50:34.049 panickster[27678:70b] THREAD WARNING: ['Device'] took '15.003906' ms. Plugin should use a background thread.
