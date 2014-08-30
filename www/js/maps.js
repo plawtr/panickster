@@ -324,34 +324,34 @@ getMapWithGPS = function() {
 
 
 onGPSSuccess = function(position) {
-  // var incidentLocation, map, marker, myOptions;
-  // incidentLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
-  // myOptions = {
-  //   zoom: 16,
-  //   center: incidentLocation,
-  //   mapTypeId: google.maps.MapTypeId.ROADMAP,
-  //   styles: mapStyle,
-  //   disableDefaultUI: true
-  // };
-  // map = new google.maps.Map(document.getElementById("map"), myOptions);
-  // marker = new google.maps.Marker({
-  //   position: incidentLocation,
-  //   draggable: true,
-  //   map: map
-  // });
-  // return google.maps.event.addListener(marker, 'dragend', function(evt) {
-  //   document.getElementById('incident-lat').value = evt.latLng.lat();
-  //   return document.getElementById('incident-lng').value = evt.latLng.lng();
-  // });
+  var incidentLocation, map, marker, myOptions;
+  incidentLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+  myOptions = {
+    zoom: 16,
+    center: incidentLocation,
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+    styles: mapStyle,
+    disableDefaultUI: true
+  };
+  map = new google.maps.Map(document.getElementById("map"), myOptions);
+  marker = new google.maps.Marker({
+    position: incidentLocation,
+    draggable: true,
+    map: map
+  });
+  return google.maps.event.addListener(marker, 'dragend', function(evt) {
+    document.getElementById('incident-lat').value = evt.latLng.lat();
+    return document.getElementById('incident-lng').value = evt.latLng.lng();
+  });
 
-  alert('Latitude: '          + position.coords.latitude          + '\n' +
-          'Longitude: '         + position.coords.longitude         + '\n' +
-          'Altitude: '          + position.coords.altitude          + '\n' +
-          'Accuracy: '          + position.coords.accuracy          + '\n' +
-          'Altitude Accuracy: ' + position.coords.altitudeAccuracy  + '\n' +
-          'Heading: '           + position.coords.heading           + '\n' +
-          'Speed: '             + position.coords.speed             + '\n' +
-          'Timestamp: '         + position.timestamp                + '\n');
+  // alert('Latitude: '          + position.coords.latitude          + '\n' +
+  //         'Longitude: '         + position.coords.longitude         + '\n' +
+  //         'Altitude: '          + position.coords.altitude          + '\n' +
+  //         'Accuracy: '          + position.coords.accuracy          + '\n' +
+  //         'Altitude Accuracy: ' + position.coords.altitudeAccuracy  + '\n' +
+  //         'Heading: '           + position.coords.heading           + '\n' +
+  //         'Speed: '             + position.coords.speed             + '\n' +
+  //         'Timestamp: '         + position.timestamp                + '\n');
 };
 
 onGPSError = function(error) {
