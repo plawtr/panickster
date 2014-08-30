@@ -296,7 +296,8 @@ angular.module('starter.services')
         var currentLoc;
 
         var getMapWithGPS = function() {
-            return navigator.geolocation.getCurrentPosition(onGPSSuccess, onGPSError);
+            navigator.geolocation.getCurrentPosition(onGPSSuccess, onGPSError);
+            return deferredInit.promise;
         };
 
         var onGPSSuccess = function(position) {
@@ -325,14 +326,6 @@ angular.module('starter.services')
                 deferredInit.resolve(loc);
             });
 
-            // alert('Latitude: '          + position.coords.latitude          + '\n' +
-            //         'Longitude: '         + position.coords.longitude         + '\n' +
-            //         'Altitude: '          + position.coords.altitude          + '\n' +
-            //         'Accuracy: '          + position.coords.accuracy          + '\n' +
-            //         'Altitude Accuracy: ' + position.coords.altitudeAccuracy  + '\n' +
-            //         'Heading: '           + position.coords.heading           + '\n' +
-            //         'Speed: '             + position.coords.speed             + '\n' +
-            //         'Timestamp: '         + position.timestamp                + '\n');
         };
 
         var onGPSError = function(error) {
@@ -340,10 +333,37 @@ angular.module('starter.services')
         };
 
 
+        function getHeatMapResults(){
+            return $http.get('http://localhost:3000/heatmap', {params:currentLoc})
+                    .then(function(res){
+                        return res.data
+                    });
+        }
+
+        function processIncidentData(res){
+            var incidentData = [];
+            angular.forEach(res, function(val, key){
+                incidentData.push(new google.maps.LatLng(val.lat, val.lng));
+            });
+            return incidentData;
+        }       
+
+        function publishResultsIntoMap(incidentData){
+              var pointArray = new google.maps.MVCArray(incidentData);
+ 
+              heatmap = new google.maps.visualization.HeatmapLayer({
+                data: pointArray
+              });
+
+              heatmap.setMap(map);
+        }
+
         return {
             init: function () {
-                getMapWithGPS();
-                return deferredInit.promise;
+                getMapWithGPS()
+                    .then(getHeatMapResults)
+                    .then(processIncidentData)
+                    .then(publishResultsIntoMap);
             },
             getCurrentLoc: function(){
                 var defer = $q.defer();

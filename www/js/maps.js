@@ -326,14 +326,10 @@ onGPSSuccess = function(position) {
     return document.getElementById('incident-lng').value = evt.latLng.lng();
   });
 
-  // function getJsonResults(lat, lng){
-  //     var params = {
-  //       lat: lat,
-  //       lng: lng
-  //     }
-  //     return $http.get('http://localhost:3000/heatmap', {params:params).then(function(res){
-  //       return res.data;
-  //     });
+  function getJsonResults(){
+      return $http.get('http://localhost:3000/heatmap', {params:currentLoc).then(function(res){
+        return res.data;
+      });
 
   function publishResultsIntoMap(res){
     var incidentData = [];
@@ -342,7 +338,7 @@ onGPSSuccess = function(position) {
         incidentData.push(new google.maps.LatLng(val.lat, val.lng));
     });
 
-    return taxiData;
+    return incidentData;
   }
 };
 
