@@ -82,3 +82,60 @@ Terminating in response to SpringBoard's termination.
   ]
 ]
 2014-08-30 21:37:36.364 panickster[33369:70b] Finished load of: file:///Users/shalhose/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8ECFFE45-6809-41A0-899D-A99C41E93DDD/panickster.app/www/index.html
+2014-08-30 22:25:53.596 panickster[9163:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-30 22:25:53.602 panickster[9163:70b] Unlimited access to network resources
+2014-08-30 22:25:53.619 panickster[9163:70b] CDVPlugin class IonicKeyboard (pluginName: keyboard) does not exist.
+2014-08-30 22:25:53.619 panickster[9163:70b] [CDVTimer][keyboard] 0.477970ms
+2014-08-30 22:25:53.619 panickster[9163:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-08-30 22:25:53.620 panickster[9163:70b] [CDVTimer][statusbar] 0.437975ms
+2014-08-30 22:25:53.620 panickster[9163:70b] [CDVTimer][TotalPluginStartup] 1.667023ms
+2014-08-30 22:25:53.704 panickster[9163:70b] Resetting plugins due to page load.
+2014-08-30 22:25:53.934 panickster[9163:70b] Finished load of: file:///Users/carlospastor/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/51D7A36C-2FF3-45EE-AB6A-F7A7F2EF2E20/panickster.app/www/index.html#/tab/heatmap
+2014-08-30 22:25:53.961 panickster[9163:70b] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
+2014-08-30 22:25:53.961 panickster[9163:70b] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-08-30 22:25:53.962 panickster[9163:70b] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "Device758048999",
+  "Device",
+  "getDeviceInfo",
+  [
+
+  ]
+]
+2014-08-30 22:53:40.781 panickster[9473:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-30 22:53:40.787 panickster[9473:70b] Unlimited access to network resources
+2014-08-30 22:53:40.804 panickster[9473:70b] CDVPlugin class IonicKeyboard (pluginName: keyboard) does not exist.
+2014-08-30 22:53:40.804 panickster[9473:70b] [CDVTimer][keyboard] 0.492036ms
+2014-08-30 22:53:40.805 panickster[9473:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-08-30 22:53:40.805 panickster[9473:70b] [CDVTimer][statusbar] 0.680983ms
+2014-08-30 22:53:40.806 panickster[9473:70b] [CDVTimer][TotalPluginStartup] 2.220988ms
+2014-08-30 22:53:40.891 panickster[9473:70b] Resetting plugins due to page load.
+2014-08-30 22:53:41.112 panickster[9473:70b] Finished load of: file:///Users/carlospastor/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A4E607AB-86F2-4579-9F4D-3419EDA5AF6A/panickster.app/www/index.html#/tab/heatmap
+2014-08-30 22:53:41.139 panickster[9473:70b] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
+2014-08-30 22:53:41.139 panickster[9473:70b] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-08-30 22:53:41.139 panickster[9473:70b] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "Device31096797",
+  "Device",
+  "getDeviceInfo",
+  [
+
+  ]
+]
+2014-08-30 22:54:35.680 panickster[9656:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-30 22:54:35.687 panickster[9656:70b] Unlimited access to network resources
+2014-08-30 22:54:35.703 panickster[9656:70b] CDVPlugin class IonicKeyboard (pluginName: keyboard) does not exist.
+2014-08-30 22:54:35.704 panickster[9656:70b] [CDVTimer][keyboard] 0.622988ms
+2014-08-30 22:54:35.704 panickster[9656:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-08-30 22:54:35.704 panickster[9656:70b] [CDVTimer][statusbar] 0.384033ms
+2014-08-30 22:54:35.705 panickster[9656:70b] [CDVTimer][TotalPluginStartup] 1.744986ms
+2014-08-30 22:54:35.800 panickster[9656:70b] Resetting plugins due to page load.
+2014-08-30 22:54:36.021 panickster[9656:70b] Finished load of: file:///Users/carlospastor/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/BBFAEBA1-2841-486E-8EAC-BD2A4694891E/panickster.app/www/index.html#/tab/heatmap
+2014-08-30 22:54:36.047 panickster[9656:70b] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
+2014-08-30 22:54:36.048 panickster[9656:70b] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-08-30 22:54:36.048 panickster[9656:70b] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "Device550226634",
+  "Device",
+  "getDeviceInfo",
+  [
+
+  ]
+]
