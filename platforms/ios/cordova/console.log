@@ -24,3 +24,19 @@ Terminating in response to SpringBoard's termination.
 2014-08-30 19:10:37.317 panickster[16503:70b] Resetting plugins due to page load.
 2014-08-30 19:10:37.600 panickster[16503:70b] Finished load of: file:///Users/saurabh/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/4BF0C5EA-A05A-48D8-8350-56C0309483A3/panickster.app/www/index.html#/tab/heatmap
 Terminating in response to SpringBoard's termination.
+2014-08-30 21:15:07.614 panickster[6954:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-30 21:15:07.621 panickster[6954:70b] Unlimited access to network resources
+2014-08-30 21:15:07.637 panickster[6954:70b] [CDVTimer][keyboard] 0.055969ms
+2014-08-30 21:15:07.638 panickster[6954:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-08-30 21:15:07.638 panickster[6954:70b] [CDVTimer][statusbar] 0.588000ms
+2014-08-30 21:15:07.639 panickster[6954:70b] [CDVTimer][TotalPluginStartup] 1.780987ms
+2014-08-30 21:15:07.719 panickster[6954:70b] Resetting plugins due to page load.
+2014-08-30 21:15:07.836 panickster[6954:70b] Finished load of: file:///Users/carlospastor/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/B1519934-9ACD-4B42-914D-88E55AEDDDDA/panickster.app/www/index.html#/tab/heatmap
+2014-08-30 21:22:18.133 panickster[7139:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-30 21:22:18.140 panickster[7139:70b] Unlimited access to network resources
+2014-08-30 21:22:18.156 panickster[7139:70b] [CDVTimer][keyboard] 0.052035ms
+2014-08-30 21:22:18.157 panickster[7139:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-08-30 21:22:18.157 panickster[7139:70b] [CDVTimer][statusbar] 0.432968ms
+2014-08-30 21:22:18.158 panickster[7139:70b] [CDVTimer][TotalPluginStartup] 1.287997ms
+2014-08-30 21:22:18.259 panickster[7139:70b] Resetting plugins due to page load.
+2014-08-30 21:22:18.370 panickster[7139:70b] Finished load of: file:///Users/carlospastor/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/9C9D159F-9756-4DCF-87E2-71247C07D1BF/panickster.app/www/index.html#/tab/heatmap
