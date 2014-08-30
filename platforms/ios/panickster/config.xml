@@ -28,9 +28,6 @@
     <feature name="Device">
         <param name="ios-package" value="CDVDevice" />
     </feature>
-    <feature name="Geolocation">
-        <param name="ios-package" value="CDVLocation" />
-    </feature>
     <name>panickster</name>
     <description>
         An Ionic Framework and Cordova project.

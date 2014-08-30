@@ -42,7 +42,6 @@
 		850D020456134B7B99130135 /* IonicKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2DA5A550284BDBBEFAF1F2 /* IonicKeyboard.m */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 		DE1F47A83A2E42FE998DF25C /* UIWebViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 447E1D3F04C042AE8DD3652D /* UIWebViewExtension.m */; };
-		F9E940DDD14342C7B7B6650C /* CDVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5FDAD6E0B14A73BBBDA8AC /* CDVLocation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,8 +114,6 @@
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = panickster/config.xml; sourceTree = "<group>"; };
-		9E5FDAD6E0B14A73BBBDA8AC /* CDVLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVLocation.m"; path = "org.apache.cordova.geolocation/CDVLocation.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		868262083C0C4A00BECAC4D8 /* CDVLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVLocation.h"; path = "org.apache.cordova.geolocation/CDVLocation.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,8 +242,6 @@
 				E76211FF6EC049498D69D500 /* CDVLogger.h */,
 				7FCB46B78F11458CA8DCA72E /* CDVDevice.m */,
 				28A0FD4F72A54579B74553F2 /* CDVDevice.h */,
-				9E5FDAD6E0B14A73BBBDA8AC /* CDVLocation.m */,
-				868262083C0C4A00BECAC4D8 /* CDVLocation.h */,
 			);
 			name = Plugins;
 			path = panickster/Plugins;
@@ -445,7 +440,6 @@
 				DE1F47A83A2E42FE998DF25C /* UIWebViewExtension.m in Sources */,
 				19D00389AA564C9987A50C82 /* CDVLogger.m in Sources */,
 				49746C1550794677A1B5F6B5 /* CDVDevice.m in Sources */,
-				F9E940DDD14342C7B7B6650C /* CDVLocation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

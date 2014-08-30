@@ -3,22 +3,24 @@ angular.module('starter.controllers', [])
 .controller('HeatMapCtrl', function($scope) {
 })
 
-.controller('ReportCtrl', function($scope, Report, $ionicPopup) {
+.controller('ReportCtrl', function($scope, Report, $ionicPopup, $state) {
 	$scope.data = {};
-
+console.log(Report)
 	$scope.reportIncident = function(data){
 
-		console.log('reporting', data);
 
-		var alertPopup = $ionicPopup.alert({
-	     	title: 'Incident reported successfully!'
-	   	});
+		Report.incident(data).then(function(res){
+			var alertPopup = $ionicPopup.alert({
+		     	title: 'Incident reported successfully!'
+		   	});
 
-	    alertPopup.then(function(res) {
-	    	
-	   	});
+		    alertPopup.then(function(res) {
+		    	$state.go('tab.heatmap');
+		   	});
+		});
 
-    }	
+		
+    }
 })
 
 .controller('InfoCtrl', function($scope) {
