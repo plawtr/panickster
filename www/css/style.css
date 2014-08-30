@@ -1,1 +1,14 @@
 /* Empty. Add your own CSS if you like */
+#panic .section {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+#panic h3{
+    text-align: center;
+}
+
+#panic a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
