@@ -1,4 +1,4 @@
 angular.module('starter.controllers')
-    .controller('HeatMapCtrl', function ($scope) {
-      getMapWithGPS();
+    .controller('HeatMapCtrl', function ($scope, Maps) {
+        Maps.init();
     });
