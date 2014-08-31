@@ -19,7 +19,7 @@ var mapStyle = [
 ];
 
 angular.module('starter.services')
-    .factory('Maps', function ($q, $http) {
+    .factory('Maps', function ($q, $http, $ionicPopup) {
 
         var deferredInit = $q.defer();
         var currentLoc, myOptions, incidentLocation;
@@ -56,6 +56,16 @@ angular.module('starter.services')
             return $http.get('http://localhost:3000/heatmap', {params: currentLoc})
                 .then(function (res) {
                     return res.data.result
+                }, function(error){
+
+                    var alertPopup = $ionicPopup.alert({
+                        title: 'Something went wrong while retrieving the heatmap data',
+                        subTitle: 'Displaying map only'
+                    });
+
+                    return alertPopup.then(function (res) {
+                       return [];
+                    });
                 });
         }
 
