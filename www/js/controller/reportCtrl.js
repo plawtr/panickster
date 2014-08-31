@@ -1,18 +1,21 @@
 var position;
 
 angular.module('starter.controllers')
-    .controller('ReportCtrl', function ($scope, Report, $ionicPopup, $state) {
+    .controller('ReportCtrl', function ($scope, Report, $ionicPopup, $state, Maps) {
+        var initPromise = Maps.init();
 
         $scope.data = {};
 
-        navigator.geolocation.getCurrentPosition(getPosition, noCoords);
-
         $scope.reportIncident = function (data) {
+            initPromise.then(function(){
+                var currentLoc = Maps.getCurrentLoc();
+                data.lat = currentLoc.lat;
+                data.lng = currentLoc.lng;
 
-            data.lat = position.coords.latitude;
-            data.lng = position.coords.longitude;
-            
-            Report.incident(data).then(function (res) {
+                Report.incident(data)
+                    .then(showSuccessMsg, somethingWentWrong);
+
+                function showSuccessMsg() {
                     var alertPopup = $ionicPopup.alert({
                         title: 'Incident reported successfully.',
                         subTitle: 'Thank you.'
@@ -21,8 +24,9 @@ angular.module('starter.controllers')
                     alertPopup.then(function (res) {
                         $state.go('tab.heatmap');
                     });
-                },
-            function (error) {
+                }
+
+                function somethingWentWrong(error) {
                     var alertPopup = $ionicPopup.alert({
                         title: 'Something went wrong.',
                         subTitle: 'Please try again'
@@ -30,14 +34,6 @@ angular.module('starter.controllers')
 
                     alertPopup.then(function (error) { });
                 }
-            );
+            });
         }
     });
-
-getPosition = function(pos) {
-        position = pos;
-}
-
-noCoords = function(error) { 
-    return alert('code: ' + error.code + '\n' + 'message: ' + error.message + '\n');
-}

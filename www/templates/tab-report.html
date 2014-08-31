@@ -1,8 +1,19 @@
 <ion-view title="Report incident">
-  <ion-content class="padding">
-    <label class="item item-input">
-  		<textarea name="message" rows="10" placeholder="Describe the incident..." ng-model="data.message"></textarea>  		
-	</label>
-	<button type="submit" class="button button-outline button-block button-positive" ng-click="reportIncident(data)">Report</button>
-  </ion-content>  
+    <ion-content class="padding">
+        <div class="row">
+            <div class="col">
+                <div id="map" style="width: 100%; height: 180px"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label class="item item-input">
+                    <textarea name="message" rows="4" placeholder="Describe the incident..."
+                              ng-model="data.message"></textarea>
+                </label>
+                <button type="submit" class="button button-outline button-block button-positive" ng-click="reportIncident(data)">Report
+                </button>
+            </div>
+        </div>
+    </ion-content>
 </ion-view>
