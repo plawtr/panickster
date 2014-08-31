@@ -7,7 +7,9 @@ ion-nav-bar.bar.bar-stable {
     color: #FFF;
     border-color: #FFF;
 }
-
+.has-tabs, .bar-footer.has-tabs {
+    bottom: 53px;
+}
 .scroll-content,
 ion-tabs .tabs,
 ion-view.pane {
