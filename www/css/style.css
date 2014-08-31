@@ -1,14 +1,38 @@
-/* Empty. Add your own CSS if you like */
+body {
+    background-image: url("../img/blurredBlue.jpg") !important;
+}
+
+.scroll-content,
+ion-nav-bar.bar.bar-stable,
+ion-tabs .tabs,
+ion-view.pane {
+    /*background-color: #262626;*/
+    background: inherit;
+    background-color: transparent !important;
+    color: #FFF;
+    border-color: #FFF;
+}
+
+.bar.bar-stable .title {
+    color: #FFF;
+}
+
+.tabs {
+    height: 53px;
+    padding-top:  3px;
+    border-color: #FFF;
+}
+
 #panic .section {
     padding-top: 5px;
     padding-bottom: 20px;
 }
 
-#panic h5{
+#panic h5 {
     text-align: center;
 }
 
-a{
+a {
     color: #FFFFFF;
     text-decoration: none;
 }
