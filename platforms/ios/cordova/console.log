@@ -320,3 +320,22 @@ Terminating in response to SpringBoard's termination.
 ]
 2014-08-31 05:17:48.642 panickster[40352:70b] Finished load of: file:///Users/shalhose/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/523E29BD-F670-4A4E-8821-D6F229789D0F/panickster.app/www/index.html#/tab/heatmap
 2014-08-31 05:17:48.897 panickster[40352:70b] THREAD WARNING: ['Geolocation'] took '63.602051' ms. Plugin should use a background thread.
+2014-08-31 07:16:57.110 panickster[23802:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-31 07:16:57.122 panickster[23802:70b] Unlimited access to network resources
+2014-08-31 07:16:57.178 panickster[23802:70b] CDVPlugin class IonicKeyboard (pluginName: keyboard) does not exist.
+2014-08-31 07:16:57.178 panickster[23802:70b] [CDVTimer][keyboard] 0.535011ms
+2014-08-31 07:16:57.179 panickster[23802:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-08-31 07:16:57.179 panickster[23802:70b] [CDVTimer][statusbar] 0.442982ms
+2014-08-31 07:16:57.180 panickster[23802:70b] [CDVTimer][TotalPluginStartup] 1.815975ms
+2014-08-31 07:16:57.324 panickster[23802:70b] Resetting plugins due to page load.
+2014-08-31 07:16:57.704 panickster[23802:70b] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
+2014-08-31 07:16:57.704 panickster[23802:70b] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-08-31 07:16:57.705 panickster[23802:70b] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "Device1387917551",
+  "Device",
+  "getDeviceInfo",
+  [
+
+  ]
+]
+2014-08-31 07:16:57.716 panickster[23802:70b] Finished load of: file:///Users/carlospastor/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/E6D620A7-8314-4774-B210-3DEAD33BE04C/panickster.app/www/index.html#/tab/heatmap
