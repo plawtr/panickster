@@ -1,10 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ebc0540-f098-4fb8-b5b0-daa2efa1ba12" name="Default" comment="" />
-    <list id="128967c7-1988-4848-b335-0e8b45664217" name="DO NOT COMMIT" comment="">
+    <list default="true" id="5ebc0540-f098-4fb8-b5b0-daa2efa1ba12" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/Default-568h@2x~iphone.png" afterPath="$PROJECT_DIR$/platforms/ios/panickster/Resources/splash/Default-568h@2x~iphone.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/Default-Landscape@2x~ipad.png" afterPath="$PROJECT_DIR$/platforms/ios/panickster/Resources/splash/Default-Landscape@2x~ipad.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/Default-Landscape~ipad.png" afterPath="$PROJECT_DIR$/platforms/ios/panickster/Resources/splash/Default-Landscape~ipad.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/Default-Portrait@2x~ipad.png" afterPath="$PROJECT_DIR$/platforms/ios/panickster/Resources/splash/Default-Portrait@2x~ipad.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/Default-Portrait~ipad.png" afterPath="$PROJECT_DIR$/platforms/ios/panickster/Resources/splash/Default-Portrait~ipad.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/Default@2x~iphone.png" afterPath="$PROJECT_DIR$/platforms/ios/panickster/Resources/splash/Default@2x~iphone.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/Default~iphone.png" afterPath="$PROJECT_DIR$/platforms/ios/panickster/Resources/splash/Default~iphone.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/icon-40.png" afterPath="$PROJECT_DIR$/platforms/ios/panickster/Resources/icons/icon-40.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/icon-40@2x.png" afterPath="$PROJECT_DIR$/platforms/ios/panickster/Resources/icons/icon-40@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/icon-50.png" afterPath="$PROJECT_DIR$/platforms/ios/panickster/Resources/icons/icon-50.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/icon-50@2x.png" afterPath="$PROJECT_DIR$/platforms/ios/panickster/Resources/icons/icon-50@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/icon-60.png" afterPath="$PROJECT_DIR$/platforms/ios/panickster/Resources/icons/icon-60.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/icon-60@2x.png" afterPath="$PROJECT_DIR$/platforms/ios/panickster/Resources/icons/icon-60@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/icon-72.png" afterPath="$PROJECT_DIR$/platforms/ios/panickster/Resources/icons/icon-72.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/icon-72@2x.png" afterPath="$PROJECT_DIR$/platforms/ios/panickster/Resources/icons/icon-72@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/icon-76.png" afterPath="$PROJECT_DIR$/platforms/ios/panickster/Resources/icons/icon-76.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/icon-76@2x.png" afterPath="$PROJECT_DIR$/platforms/ios/panickster/Resources/icons/icon-76@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/icon-small.png" afterPath="$PROJECT_DIR$/platforms/ios/panickster/Resources/icons/icon-small.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/icon-small@2x.png" afterPath="$PROJECT_DIR$/platforms/ios/panickster/Resources/icons/icon-small@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/icon.png" afterPath="$PROJECT_DIR$/platforms/ios/panickster/Resources/icons/icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/icon@2x.png" afterPath="$PROJECT_DIR$/platforms/ios/panickster/Resources/icons/icon@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/panickster.iml" afterPath="$PROJECT_DIR$/.idea/panickster.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+    <list id="128967c7-1988-4848-b335-0e8b45664217" name="DO NOT COMMIT" comment="" />
     <ignored path="panickster.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -218,6 +240,86 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panickster" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panickster" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="platforms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panickster" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panickster" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="platforms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panickster" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panickster" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="platforms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panickster" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panickster" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panickster" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="platforms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panickster" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -238,6 +340,8 @@
       <recent name="$PROJECT_DIR$/www" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/platforms/ios/panickster/Resources/splash" />
+      <recent name="$PROJECT_DIR$/platforms/ios/panickster/Resources/icons" />
       <recent name="$PROJECT_DIR$/www/js/service" />
       <recent name="$PROJECT_DIR$/www/js/controller" />
     </key>
@@ -331,14 +435,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="28" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/tab-panic.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="600">
@@ -673,7 +769,7 @@
         <state vertical-scroll-proportion="0.2705314" vertical-offset="61178" max-vertical-offset="124830">
           <caret line="4086" column="11" selection-start-line="4086" selection-start-column="11" selection-end-line="4086" selection-end-column="11" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -716,6 +812,11 @@
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/ios/panickster/Resources/icons/icon-40.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
