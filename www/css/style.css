@@ -15,6 +15,10 @@ body.popup-open .scroll-content {
     color: white;
 }
 
+.tab-item.tab-item-active {
+    font-weight: bold;
+}
+
 .popup .popup-title,
 .popup .popup-sub-title {
     color: white;
