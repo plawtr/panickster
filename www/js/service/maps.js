@@ -365,12 +365,13 @@ angular.module('starter.services')
 
         return {
             init: function () {
-                getMapWithGPS()
+                return getMapWithGPS()
                     .then(getHeatMapResults)
                     .then(processIncidentData)
                     .then(publishResultsIntoMap)
-                    .then(function () {
+                    .then(function (data) {
                         console.log('MAP INITIALIZED', currentLoc);
+                        return data;
                     });
             },
             getCurrentLoc: function () {
