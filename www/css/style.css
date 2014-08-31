@@ -2,18 +2,35 @@ body {
     background-image: url("../img/blurredBlue.jpg") !important;
 }
 
-ion-nav-bar.bar.bar-stable {
+ion-nav-bar.bar.bar-stable{
     background-color: #005878;
     color: #FFF;
     border-color: #FFF;
 }
+
 .has-tabs, .bar-footer.has-tabs {
     bottom: 53px;
 }
+
+.item.item-button-right,
+.item.item-text-wrap,
+div.card,
+.item.item-divider{
+    background-color: transparent;
+    color: #FFF;
+}
+
+.item.item-divider {
+    font-weight: bold;
+}
+
+label.item-input, textarea {
+    background-color: transparent;
+}
+
 .scroll-content,
 ion-tabs .tabs,
 ion-view.pane {
-    /*background-color: #262626;*/
     background: inherit;
     background-color: transparent !important;
     color: #FFF;
