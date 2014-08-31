@@ -26,6 +26,7 @@ div.card,
 
 label.item-input, textarea {
     background-color: transparent;
+    color: #FFFFFF;
 }
 
 .scroll-content,
