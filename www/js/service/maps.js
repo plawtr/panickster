@@ -57,10 +57,15 @@ angular.module('starter.services')
                 .then(function (res) {
                     return res.data.result
                 }, function(error){
-
                     var alertPopup = $ionicPopup.alert({
                         title: 'Something went wrong while retrieving the heatmap data',
-                        subTitle: 'Displaying map only'
+                        subTitle: 'Displaying map only',
+                        buttons: [
+                            {
+                                text: 'OK' ,
+                                type: 'button-positive button-outline'
+                            }
+                        ]
                     });
 
                     return alertPopup.then(function (res) {
