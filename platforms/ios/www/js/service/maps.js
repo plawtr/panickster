@@ -53,7 +53,7 @@ angular.module('starter.services')
 
 
         function getHeatMapResults() {
-            return $http.get('http://localhost:3000/heatmap', {params: currentLoc})
+            return $http.get('http://mapster-panickster.herokuapp.com/heatmap', {params: currentLoc})
                 .then(function (res) {
                     return res.data.result
                 }, function(error){
