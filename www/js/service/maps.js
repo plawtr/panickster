@@ -316,7 +316,6 @@ angular.module('starter.services')
             };
 
             deferredInit.resolve(currentLoc);
-
         };
 
         var onGPSError = function (error) {
@@ -341,6 +340,20 @@ angular.module('starter.services')
 
         function publishResultsIntoMap(incidentData) {
             var map = new google.maps.Map(document.getElementById("map"), myOptions);
+            var marker = new google.maps.Marker({
+                position: incidentLocation,
+                draggable: true,
+                map: map
+            });
+
+            google.maps.event.addListener(marker, 'dragend', function(evt) {
+                currentLoc = {
+                    lat: evt.latLng.lat(),
+                    lng: evt.latLng.lng()
+                };
+
+                console.log('Current Location Updated', currentLoc);
+            });
             var pointArray = new google.maps.MVCArray(incidentData);
 
             var heatmap = new google.maps.visualization.HeatmapLayer({
@@ -357,8 +370,11 @@ angular.module('starter.services')
                     .then(processIncidentData)
                     .then(publishResultsIntoMap)
                     .then(function () {
-                        console.log('MAP INITIALIZED');
+                        console.log('MAP INITIALIZED', currentLoc);
                     });
+            },
+            getCurrentLoc: function () {
+                return currentLoc;
             }
         };
     });

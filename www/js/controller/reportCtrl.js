@@ -1,41 +1,26 @@
 var position;
 
 angular.module('starter.controllers')
-    .controller('ReportCtrl', function ($scope, Report, $ionicPopup, $state) {
+    .controller('ReportCtrl', function ($scope, Report, $ionicPopup, $state, Maps) {
 
         $scope.data = {};
 
-        navigator.geolocation.getCurrentPosition(getPosition, noCoords);
-
         $scope.reportIncident = function (data) {
+            var currentLoc = Maps.getCurrentLoc();
+            data.lat = currentLoc.lat;
+            data.lng = currentLoc.lng;
 
-            data.lat = position.coords.latitude;
-            data.lng = position.coords.longitude;
-            
-            Report.incident(data).then(function (res) {
-                    var alertPopup = $ionicPopup.alert({
-                        title: 'Incident reported successfully!'
-                    });
+            Report.incident(data)
+                .then(showSuccessMsg);
 
-                    alertPopup.then(function (res) {
-                        $state.go('tab.heatmap');
-                    });
-                },
-            function (error) {
-                    var alertPopup = $ionicPopup.alert({
-                        title: 'Something went wrong! Please try again'
-                    });
+            function showSuccessMsg() {
+                var alertPopup = $ionicPopup.alert({
+                    title: 'Incident reported successfully!'
+                });
 
-                    alertPopup.then(function (error) { });
-                }
-            );
+                alertPopup.then(function (res) {
+                    $state.go('tab.heatmap');
+                });
+            }
         }
     });
-
-getPosition = function(pos) {
-        position = pos;
-}
-
-noCoords = function(error) { 
-    return alert('code: ' + error.code + '\n' + 'message: ' + error.message + '\n');
-}
