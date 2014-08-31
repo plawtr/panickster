@@ -320,3 +320,10 @@ Terminating in response to SpringBoard's termination.
 ]
 2014-08-31 05:17:48.642 panickster[40352:70b] Finished load of: file:///Users/shalhose/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/523E29BD-F670-4A4E-8821-D6F229789D0F/panickster.app/www/index.html#/tab/heatmap
 2014-08-31 05:17:48.897 panickster[40352:70b] THREAD WARNING: ['Geolocation'] took '63.602051' ms. Plugin should use a background thread.
+2014-08-31 05:35:04.225 panickster[40819:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-31 05:35:04.248 panickster[40819:70b] Unlimited access to network resources
+2014-08-31 05:35:04.274 panickster[40819:70b] CDVPlugin class IonicKeyboard (pluginName: keyboard) does not exist.
+2014-08-31 05:35:04.275 panickster[40819:70b] [CDVTimer][keyboard] 0.284970ms
+2014-08-31 05:35:04.275 panickster[40819:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-08-31 05:35:04.275 panickster[40819:70b] [CDVTimer][statusbar] 0.226974ms
+2014-08-31 05:35:04.275 panickster[40819:70b] [CDVTimer][TotalPluginStartup] 1.040995ms
