@@ -18,7 +18,13 @@ angular.module('starter.controllers')
                 function showSuccessMsg() {
                     var alertPopup = $ionicPopup.alert({
                         title: 'Incident reported successfully.',
-                        subTitle: 'Thank you.'
+                        subTitle: 'Thank you',
+                        buttons: [
+                            {
+                                text: 'OK' ,
+                                type: 'button-positive button-outline'
+                            }
+                        ]
                     });
 
                     alertPopup.then(function (res) {

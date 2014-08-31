@@ -2,7 +2,25 @@ body {
     background-image: url("../img/blurredBlue.jpg") !important;
 }
 
-ion-nav-bar.bar.bar-stable{
+body.popup-open .scroll-content {
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.popup {
+    background-color: rgba(204, 204, 204, 0.8);
+    color: white;
+}
+
+.popup .popup-title,
+.popup .popup-sub-title {
+    color: white;
+}
+
+ion-nav-bar.bar.bar-stable {
     background-color: #005878;
     color: #FFF;
     border-color: #FFF;
@@ -15,7 +33,7 @@ ion-nav-bar.bar.bar-stable{
 .item.item-button-right,
 .item.item-text-wrap,
 div.card,
-.item.item-divider{
+.item.item-divider {
     background-color: transparent;
     color: #FFF;
 }
