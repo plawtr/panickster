@@ -14,7 +14,8 @@ angular.module('starter.controllers')
             
             Report.incident(data).then(function (res) {
                     var alertPopup = $ionicPopup.alert({
-                        title: 'Incident reported successfully!'
+                        title: 'Incident reported successfully.',
+                        subTitle: 'Thank you.'
                     });
 
                     alertPopup.then(function (res) {
@@ -23,7 +24,8 @@ angular.module('starter.controllers')
                 },
             function (error) {
                     var alertPopup = $ionicPopup.alert({
-                        title: 'Something went wrong! Please try again'
+                        title: 'Something went wrong.',
+                        subTitle: 'Please try again'
                     });
 
                     alertPopup.then(function (error) { });
