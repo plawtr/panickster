@@ -2,8 +2,15 @@ body {
     background-image: url("../img/blurredBlue.jpg") !important;
 }
 
+ion-nav-bar.bar.bar-stable {
+    background-color: #005878;
+    color: #FFF;
+    border-color: #FFF;
+}
+.has-tabs, .bar-footer.has-tabs {
+    bottom: 53px;
+}
 .scroll-content,
-ion-nav-bar.bar.bar-stable,
 ion-tabs .tabs,
 ion-view.pane {
     /*background-color: #262626;*/
@@ -19,7 +26,7 @@ ion-view.pane {
 
 .tabs {
     height: 53px;
-    padding-top:  3px;
+    padding-top: 3px;
     border-color: #FFF;
 }
 
